@@ -13,7 +13,7 @@ app.use(express.json());
 
 const dbConn = require('./controller/databse');
 
-const port = process.env.PORT || 1111;
+const port = process.env.PORT || 2222;
 
 
 
