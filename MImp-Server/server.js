@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 
 app.use(cors({
-    origin: 'https://tp-front-end-nze.vercel.app/',
+    origin: 'https://tp-front-end-nze.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
