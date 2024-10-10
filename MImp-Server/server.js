@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 
 app.use(cors({
-    origin: 'http://localhost:5173', // Allow requests from Vite
+    origin: 'https://tp-front-end-nze.vercel.app/',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
